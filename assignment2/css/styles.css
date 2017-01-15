@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: Helvetica Arial;
+  font-family: Helvetica Arial Times;
+  font-size: 100%
 }
 
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 175%
 }
 
 section, section#section3 {
@@ -21,14 +23,16 @@ section, section#section3 {
 
 div#title1, div#title2, div#title3 {
   float: right;
-  text-align: right;
+  text-align: center;
   border: 1px solid black;
   font-weight: bold;
-  font-size: 32px;
+  /*font-size: 32px;*/
+  font-size: 125%;
   color: black;
   display: inline-block;
   color: white;
-  margin: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 div#title1 {
