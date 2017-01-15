@@ -19,6 +19,7 @@ section, section#section3 {
   color: white;
   overflow: hidden;
   margin: 1%;
+  padding: 1%;
   /*border-width: medium;*/
 }
 
