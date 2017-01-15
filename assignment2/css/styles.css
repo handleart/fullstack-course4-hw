@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Helvetica Arial;s
+  font-family: Helvetica Arial;
 }
 
 h1 {
@@ -8,15 +8,15 @@ h1 {
   text-align: center;
 }
 
-section {
+section, section#section3 {
   position: relative;
   float: left;
   border: 1px solid black;
   background-color: gray;
-  height: 340px;
-  margin: 10px;
+  height: auto;
   color: white;
   overflow: hidden;
+  margin: 1%;
 }
 
 div#title1, div#title2, div#title3 {
@@ -52,20 +52,24 @@ div#description1, div#description2, div#description3 {
 
 @media (min-width: 992px) {
   section {
-    width: 31%;
+    width: 31.3%;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  section {
-    width: 45%;
+  section, section#section3{
+    width: 48%;
+  }
+
+  section#section3 {
+    width: 98%;
   }
 }
 
 /********** Medium devices only **********/
 @media (max-width: 768px) {
   section {
-    width: 100%;
+    width: 98%;
   }
 }
