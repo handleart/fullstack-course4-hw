@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+  color: black;
+  /*background-color: #61122f;*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+
+#topbox {
+  background-color: #f2f5f9;
+}
+
+#topbox hr {
+  width: 70%;
+  border: 1px solid #D3D3D3;
+  margin: 0px auto 0px auto;
+}
+
+#topbox li {
+  list-style: none;
+}
+
+/** BODY **/
+
+#chicken, #beef, #sushi {
+  background-color: #eff2f6;
+  /*border:2px solid red;*/
+  margin: 10px;
+  padding: 10px;
+}
